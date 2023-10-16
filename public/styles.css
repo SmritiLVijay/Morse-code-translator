@@ -193,3 +193,23 @@ font-family: 'Playfair Display';
   text-align: left;
 }
 
+.int-code{
+  display: block; margin: auto
+}
+@media screen and (max-width: 600px) {
+  #visual {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  #int-code{
+    margin-right: auto;
+  }
+}
+
+
+
