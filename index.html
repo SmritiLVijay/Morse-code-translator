@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <title>morse coder</title>
+    <link rel="stylesheet" href="public/styles.css">
+
+</head>
+<body>
+  <div class="container">
+    <!-- As a heading -->
+    <header class="site-header py-3">The Morse Coder</header>
+    <!-- As a navbar -->
+
+    
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#How-to-use">How to use</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Try">Try</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#About">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/SmritiLVijay"><img  class="github-icon" src="public/github-mark-white.png" alt=""></a>
+      </li>
+      
+    </ul>
+  
+
+    <div class="jumbotron jumbotron-fluid display-4 title">
+      The Morse Coder
+    </div>
+      
+    <div class="container" id="Try">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-block">
+             <h4 class="card-title">Convert text to morse code</h4>
+             <p class="card-text">Enter message into the text box to get it encoded to morse.
+             </p>
+             <a href="toMorse.html"><button class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-secondary x">to morse</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-block">
+             <h4 class="card-title">Convert morse code to text</h4>
+             <p class="card-text">Enter morse into the text box to get it decoded to text.
+             </p>
+             <a href="fromMorse.html"><button class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-secondary x">from morse</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="jumbotron jumbotron-fluid display-4 "> 
+      <div class="row">
+
+        <div class="col-6 tree1"><h4 class="card-title">Binary tree visualization</h4>
+          <p class="card-text">Morse code can be decoded using a binary tree where the left child 
+          </p>
+     <a href="Visualize.html"><button class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-warning x" >Visualize conversion</button></a></div>
+
+     <div class="col-6 tree2">
+    <img class="treeimg" src="public/tree.png" alt="tree">
+     </div>
+      
+      </div>
+    </div>
+
+        
+
+    <div id="About" >
+      <h4><i>What is morse code?</i></h4>
+
+      <p>Morse code is a system that uses short and long signals, called dots and dashes, to represent alphabet, numerals, and punctuation marks.
+        Samuel Morse, an American scientist, helped developed it to send messages over long distances
+        using wires, radios, sound, or light. Messages are sent by tapping, drumming, buzzing, clicking, or
+        flashing light. At the time of its invention, it was the fastest long-distance form of communication through telegraphs.</p>
+     
+        <p>
+
+          International Morse code is composed of five elements:
+          <li>short mark, dot or dit (  ▄ ): "dit duration" is one time unit long</li>
+          <li>long mark, dash or dah (  ▄▄▄ ): three time units long</li>
+          <li>inter-element gap between the dits and dahs within a character: one dot duration or one unit long</li>
+          <li>short gap (between letters): three time units long</li> 
+          <li>medium gap (between words): seven time units long</li>    
+          
+        </p>
+    </div>
+
+    
+    <div id="How-to-use" class="howToUse rounded">
+      <h4><i>How to use?</i></h4>
+      <p>
+        <ul style="list-style-type:none;">
+          <li>In written morse, dots or dits(.) and dashes or dahs(-) are used.</li>
+          <li>After every letter, leave a space.</li>
+          <li>After every word, leave seven spaces or use a /(forward slash).</li>
+        </ul></p>
+        <a href="#Try"><button class="btn btn-outline-dark y" style="border-radius: 2rem;">Try Now</button></a>
+            
+    </div>
+
+          
+        </div>
+
+
+        
+      
+        <div class="footer container">
+          made by smriti.
+        </div>
+      </div>
+      </body>
+      </html>

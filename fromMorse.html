@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <title>morse coder</title>
+    <link rel="stylesheet" href="public/styles.css">
+
+</head>
+<body>
+
+    <!-- As a heading -->
+    
+  
+      <div class="container">
+        <header class="site-header py-3">The Morse Coder</header>
+
+        <div class="jumbotron toMorseJumbotron">
+          <textarea type="text" id="morse-enter" oninput="Decode()" placeholder="Enter morse code here"></textarea></div>
+        <div class="jumbotron MorseJumbotron">
+          <p>Decoded text:</p><p id="demo"></p></div>
+        
+
+      
+      <div class="instructions">
+
+        <i>
+        <ul style="list-style-type:none;">
+          <li><h4>Instructions</h4></li>
+          <li>Enter the morse in the text box.</li>
+          <li>Use dashes and dots in the keyboard for letters.</li>
+          <li>Use one space to separate letters.</li>
+          <li>Use seven spaces or a slash(/) to separate words.</li></ul>
+      
+      </i>
+      </div>
+    </div>
+      
+      <div class="footer container">
+        
+      </div>
+    
+      </body>
+      <script src="./js/script.js"></script>
+      </html>

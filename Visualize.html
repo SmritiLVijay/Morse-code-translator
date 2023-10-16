@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <title>morse coder</title>
+    <link rel="stylesheet" href="public/styles.css">
+
+</head>
+<body>
+    <div class="container">
+    <header class="site-header py-3">The Morse Coder</header>
+       
+    
+    <div class="controller" style="margin-top: 2rem; margin-bottom: 2rem;">
+        <button id="dit" class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-warning x z" style="width: 100px;margin-right: 0.5rem;">dit(.)</button>
+        <button id="dah" class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-warning x z" style="width: 100px;margin-right: 0.5rem;">dah(-)</button>
+        <button id="space" class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-warning x z" style="width: 100px;margin-right: 0.5rem;">space</button>
+        <button id="slash" class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-warning x z" style="width: 100px;margin-right: 0.5rem;">slash(/)</button>
+        <button id="backspace" class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-warning x z" style="width: 100px;">backspace</button>
+        </div>
+    
+  
+        <div class="jumbotron toMorseJumbotron" >
+        
+    <div  id="BinaryTree" class="Binary-tree"><center><p>(-)<-----<span id="START">START</span>----->(.)</p>
+         <br><p class="level1"><span id="T">T</span><span id="E">E</span></p><br>
+        <br><p class="level2"><span id="M">M</span><span id="N">N</span><span id="A">A</span><span id="I">I</span></p><br>
+        <br><p class="level3"><span id="O">O</span><span id="G">G</span><span id="K">K</span><span id="D">D</span><span id="W">W</span><span id="R">R</span><span id="U">U</span><span id="S">S</span></p> <br>
+        <br><p class="level4"><span id="ol">~</span><span id="or">~</span><span id="Q">Q</span><span id="Z">Z</span><span id="Y">Y</span><span id="C">C</span><span id="X">X</span><span id="B">B</span><span id="J">J</span><span id="P">P</span><span id="rl">~</span><span id="L">L</span><span id="ul">~</span><span id="F">F</span><span id="V">V</span><span id="H">H</span></p> <br>
+        <br><p class="level5"><span id="buffer"></span><span id="0">0</span><span id="9">9</span><span id="8">8</span><span id="7">7</span><span id="6">6</span><span id="1">1</span><span id="2">2</span><span id="3">3</span><span id="4">4</span><span id="5">5</span></p> 
+    </center></div>
+
+
+    
+</div>
+<div style="background-color:#e5e5e5;color: black;margin-top: 2rem;margin-bottom: 2rem;font-family: 'Playfair display';padding: 1rem;">
+    <u>Currently:</u><p id="demo"></p>
+       <u>Decoded:</u> <p id="output"></p>
+    </div>
+    
+<div class="instructions" id="I3">
+
+    <i>
+    <ul style="list-style-type:none;">
+      <li><h4>Instructions</h4></li>
+      <li>Use the buttons of symbols or keyboard keys.</li>
+      <li>Use dashes and dots in the keyboard for letters.</li>
+      <li>Use one space to separate letters.</li>
+      <li>Use slash(/) to separate words.</li>
+      <li>The node of the tree that you are currently on and the decoded message is shown above.</li>
+      <li>The binary tree defining Morse code: A branch to the right signifies a dot in the code and a branch to the left is a dash.</li>
+    </ul>
+  
+  </i>
+  </div>
+  <div class="MorseJumbotron"> 
+    <img style="display: block; margin: auto" src="public/International_Morse_Code.svg" alt="International_Morse_Code"></div>
+
+  
+</div>
+<div class="footer container">
+   
+  </div>
+
+</body>
+<script src="./js/script.js"></script>
+</html>

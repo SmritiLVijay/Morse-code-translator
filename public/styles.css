@@ -1,0 +1,195 @@
+body{
+   
+    background-color: black;
+    margin:0;
+    padding: 0;
+    color: white;
+}
+
+.container{
+  margin: auto;
+  text-align: center;
+  padding: 0;
+
+}
+
+
+.site-header{
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    font-family: 'Playfair Display';
+    font-size: large;
+    color: #e5e5e5;
+}
+
+.jumbotron{
+  background-color: #343a40;
+  color: white;
+  margin-bottom: 1rem;
+  
+}
+
+.title{
+  font-family: 'Playfair Display'; 
+  padding: 7rem 4rem;
+}
+
+h4{
+  font-family: 'Playfair Display'; 
+}
+
+.py-3{
+  padding-bottom: 1rem;
+}
+
+.nav{
+  --bs-nav-link-color:#e5e5e5;
+}
+a{
+  color: #e5e5e5;
+}
+.navbar{
+  color: #e5e5e5;
+}
+
+ .Binary-tree{
+  align-content: center;
+  
+ }
+
+ p span{
+ 
+  border-radius:0%;
+  border: solid;
+  padding: 0.6rem;
+  outline: auto;
+
+ }
+
+ .level1 span{
+  margin: 8rem;
+ }
+
+ .level2 span{
+  margin: 5.3rem;
+ }
+
+ .level3 span{
+  margin: 2.5rem;
+ }
+
+ .level4 span{
+  margin: 0.8rem;
+ }
+
+
+
+
+span #7{
+  margin-right: 2rem;
+}
+
+#START{
+  color:#FFC107;
+}
+
+#buffer {
+  border-width: 0;
+  padding: 0;
+}
+
+.card{
+  padding: 1rem;
+  box-shadow: 2px 3px 3px black;
+  margin-bottom: 1rem;
+}
+
+.x{
+  border-radius: 2rem;
+  background-color: rgb(172, 197, 223);
+  border: none;
+  color: white;
+ 
+}
+
+a .y{
+  background-color: white;
+  border: 2px;
+}
+
+
+
+
+.card-text{
+  font-size: medium;
+}
+
+.tree1{
+  padding: 7rem 4rem;
+}
+
+
+
+.treeimg{
+  width:25rem;
+}
+
+#About{
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.github-icon{
+  width: 1.5rem;
+}
+
+.howToUse{
+  margin-top: 2rem;
+  background-color:rgb(172, 197, 223);
+  color: white;
+  padding: 3rem;
+  
+}
+
+.footer{
+  color: #e5e5e5;
+  padding: 2rem;
+  margin-top: 1rem;
+  font-family:'Playfair Display';
+  border-top: 1px solid #e5e5e5;
+}
+
+.toMorseJumbotron{
+  margin-top: 1rem;
+  padding: 2rem;
+  /* text-align: left; */
+  
+}
+
+.MorseJumbotron{
+  padding: 2rem;
+  text-align: left;
+  background-color: #e5e5e5;
+  color: black;
+  font-family: 'Playfair display';
+  font-size: medium;
+}
+
+textarea{
+  height: 100%;
+    width: 100%;
+  box-sizing:border-box;
+  padding-bottom: 2rem;
+  /* font-family: 'Playfair display'; */
+  font-size: medium;
+}
+
+table{
+font-family: 'Playfair Display';
+}
+
+.instructions{
+  text-align: left;
+}
+

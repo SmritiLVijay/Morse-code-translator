@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Poppins:wght@300&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <title>morse coder</title>
+    <link rel="stylesheet" href="public/styles.css">
+    
+
+</head>
+<body>
+  <div class="container">
+
+    <!-- As a heading -->
+    <header class="site-header py-3">The Morse Coder</header>
+  
+      <div class="jumbotron toMorseJumbotron">
+        <textarea type="text" id="text-enter" oninput="showOutput1()" placeholder="Enter message here"></textarea>
+        
+        <button class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-warning x z" onclick="showOutput2()" style="margin:1rem 0.5rem 0 0;">use slash</button>
+        <button class="btn shadow-lg shadow-intensity-lg shadow-secondary btn-warning x z" onclick="showOutput1()" style="margin:1rem 0.5rem 0 0;">use space</button>
+      </div>
+
+      <div class="jumbotron MorseJumbotron">
+        <p>Encoded Text:</p>
+        <p id="demo"></p>
+      </div>
+
+      <br>
+<div class="instructions">
+  <i>
+  <ul style="list-style-type:none;">
+    <li><h4>Instructions</h4></li>
+    <li>Enter the message in the text box.</li>
+<li>The Morse code is case-insensitive but traditionally capital letters are used.</li>
+<li>Click on the "use slash" button to have words separated by '/' and "use space" button to have words separated by spaces.</li></ul>
+<hr style="border-top: 4px solid #FFF;">
+<ul style="list-style-type:none;">
+   <li><h4><i>International Morse Code</i></h4></li>
+    <li>1. The length of a dot is one unit.</li>
+    <li>2. A dash is three units.</li>
+    <li>3. The space between parts of the same letter is one unit.</li>
+    <li>4. The space between letters is three units.</li>
+  <li>5. The space between words is seven units.</li>
+  </ul>
+</i>
+<br>
+  
+</div>
+<div class="MorseJumbotron" > 
+<img style="display: block; margin: auto" src="public/International_Morse_Code.svg" alt="International_Morse_Code"></div>
+      </div>
+      
+        
+      </div>
+      <div class="footer container">
+        
+      </div>
+      </body>
+      <script src="./js/script.js"></script>
+      
+      </html>
