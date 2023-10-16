@@ -207,7 +207,9 @@ font-family: 'Playfair Display';
   }
 
   #int-code{
-    margin-right: auto;
+     width:100%;
+     height:auto;
+     
   }
 }
 
